@@ -1,7 +1,7 @@
 README
 
-Copyright: Aaron Christianson 2011.
-Contact: ninjaaron@gmail.com
+Copyright (c) 2011, Aaron Christianson  ninjaaron@gmail.com
+Licensed under the OFL v1.1
 
 bitocra is a small, clear bitmap font especially for viewing a lot of
 lines of code or other text at once.  It is somewhat stylized after the
@@ -14,12 +14,3 @@ unicode characters.  Many of the characters in Latin Extended-A
 others)  are experimental, as I don't use them, and need confirmation
 from someone more used to them as to their correctness.Any input in this
 area is welcome.
-
-Licence:
-Licence is as yet unsorted. For now, people can use, distribute, modify,
-and redistribute all of the bitocra files freely, provided only that the
-modified versions have a licence conforming to the Open Source
-Definition.  I would appreciate knowing about the distribution of
-modified versions, but do as you like.  Look for a real licence soon.
-I have no idea if this is even legally binding, but I hope it will be
-respected until the rest is worked out.

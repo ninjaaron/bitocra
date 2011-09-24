@@ -1,4 +1,7 @@
 STARTFONT 2.1
+COMMENT Copyright (c) 2011,  Aaron Christianson  ninjaaron@gmail.com
+COMMENT licenced under the OFL 1.1
+COMMENT 1
 FONT -aaron-bitocrafull-medium-r-normal--10-100-72-72-C-90-ISO8859-1
 SIZE 10 72 72
 FONTBOUNDINGBOX 7 11 0 -2
@@ -23,7 +26,7 @@ FACE_NAME "bitocrafull"
 WEIGHT 10
 X_HEIGHT 8
 QUAD_WIDTH 8
-_ORIGINAL_FONT_NAME "ocra"
+_ORIGINAL_FONT_NAME "bitocra"
 _GBDFED_INFO "Edited with gbdfed 1.6."
 DEFAULT_CHAR 63
 FONT_DESCENT 2

@@ -14,3 +14,29 @@ unicode characters.  Many of the characters in Latin Extended-A
 others)  are experimental, as I don't use them, and need confirmation
 from someone more used to them as to their correctness.Any input in this
 area is welcome.
+
+
+Install instructions:
+
+In most distros, you can simply extract the archive to you ~/.fonts
+folder, or /usr/share/fonts (or one of it's subdirectories) if you want
+it to be available to all users.  After that, update your font cache
+with:
+
+fc-cache -fv
+
+And restart your X session.  If you want to add it to your X core fonts,
+you will need to move to the directory and run "mkfontdir," add the
+directory to your X fontpath (with a command like "xset fp+
+/path/to/font"... there are different ways of making this permanent in
+different distros), and then run "xset fp rehash".
+
+UBUNTU:
+
+In Ubuntu, bitmap fonts are disabled by default. This can be fixed by
+running the following command:
+
+sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
+
+After that, the above directions ought to work.
+

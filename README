@@ -18,7 +18,7 @@ area is welcome.
 
 Install instructions:
 
-In most distros, you can simply extract the archive to you ~/.fonts
+In many distros, you can simply extract the archive to you ~/.fonts
 folder, or /usr/share/fonts (or one of it's subdirectories) if you want
 it to be available to all users.  After that, update your font cache
 with:
@@ -31,9 +31,9 @@ directory to your X fontpath (with a command like "xset fp+
 /path/to/font"... there are different ways of making this permanent in
 different distros), and then run "xset fp rehash".
 
-UBUNTU:
+DEBIAN & UBUNTU:
 
-In Ubuntu, bitmap fonts are disabled by default. This can be fixed by
+In Debian and Ubuntu, bitmap fonts are disabled by default. This can be fixed by
 running the following command:
 
 sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf

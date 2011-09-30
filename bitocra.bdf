@@ -1,7 +1,7 @@
 STARTFONT 2.1
 COMMENT Copyright (c) 2011,  Aaron Christianson  ninjaaron@gmail.com
 COMMENT licenced under the OFL 1.1
-COMMENT A
+COMMENT 1
 FONT -aaron-bitocra-medium-r-normal--10-100-72-72-C-90-ISO8859-1
 SIZE 10 72 72
 FONTBOUNDINGBOX 7 11 0 -2
@@ -1665,7 +1665,7 @@ BITMAP
 00
 78
 18
-00
+30
 60
 78
 00

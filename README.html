@@ -742,11 +742,11 @@ asciidoc.install();
 <div class="sectionbody">
 <div class="paragraph"><p>Copyright (c) 2011, Aaron Christianson  <a href="mailto:ninjaaron@gmail.com">ninjaaron@gmail.com</a></p></div>
 <div class="paragraph"><p>Licensed under the OFL v1.1</p></div>
-<div class="paragraph"><p>bitocra is a small, clear bitmap font especially for viewing a lot of
+<div class="paragraph"><p><em>bitocra</em> is a small, clear bitmap font especially for viewing a lot of
 lines of code or other text at once.  It is somewhat stylized after the
 old OCR-A font, with many changes due to the format and size. It has all
 iso-8859-1 characters</p></div>
-<div class="paragraph"><p>bitocrafull is the same basic font, with extensive support for Latin
+<div class="paragraph"><p><em>bitocrafull</em> is the same basic font, with extensive support for Latin
 unicode characters.  Many of the characters in Latin Extended-A
 (primarily characters used in Eastern European languages as well as some
 others)  are experimental, as I don&#8217;t use them, and need confirmation
@@ -760,19 +760,19 @@ area is welcome.</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-bitocra13 is a much-requested larger version of bitocra.  It currently
+<em>bitocra13</em> is a much-requested larger version of bitocra.  It currently
 supports ISO8859 encoding.
 </p>
 </li>
 <li>
 <p>
-bitocra7 is a never-requested smaller version of bitocra.  It is
+<em>bitocra7</em> is a never-requested smaller version of bitocra.  It is
 currently only ascii, but will be expanded to ISO8895.
 </p>
 </li>
 <li>
 <p>
-4thD is a 4px font that I made for fun with complete ascii 128
+<em>4thD</em> is a 4px font that I made for fun with complete ascii 128
 encoding.  It may, one day, evolve into the 5thD.
 </p>
 </li>
@@ -782,7 +782,7 @@ encoding.  It may, one day, evolve into the 5thD.
 <div class="ulist"><ul>
 <li>
 <p>
-bitbuntu and bitbuntufull are fonts in the spirit of the Ubuntu font
+<em>bitbuntu</em> and <em>bitbuntufull</em> are fonts in the spirit of the Ubuntu font
 family with the metrics and default charsets of their bitocra
 counterparts.  This font seems to be quite popular, and may soon recieve
 it&#8217;s own repository.
@@ -799,14 +799,20 @@ it&#8217;s own repository.
 folder, or <tt>/usr/share/fonts</tt> (or one of it&#8217;s subdirectories) if you want
 it to be available to all users.  After that, update your font cache
 with:</p></div>
-<div class="paragraph"><p>$ fc-cache -fv</p></div>
+<div class="literalblock">
+<div class="content">
+<pre><tt>$ fc-cache -fv</tt></pre>
+</div></div>
 <div class="paragraph"><p>And restart your X session.</p></div>
 <div class="paragraph"><p>If you want to add it to your X core fonts, you will need to move to the
 directory and run <tt>mkfontdir</tt>, add the directory to your X fontpath:</p></div>
-<div class="paragraph"><p>$ xset +fp /path/to/font
-$ xset fp rehash</p></div>
+<div class="literalblock">
+<div class="content">
+<pre><tt>$ xset +fp /path/to/font
+$ xset fp rehash</tt></pre>
+</div></div>
 <div class="paragraph"><p>This will enable it for your session.  You can make it perminant by
-adding the path to /etc/X11/xorg.conf if you have it.  If you do don&#8217;t
+adding the path to <tt>/etc/X11/xorg.conf</tt> if you have it.  If you do don&#8217;t
 (like most people, now that Xorg configures automatically), set the
 above commands to run with autostart scripts, <tt>~/.xinitrc</tt>, or Startup
 Applications, depending on your WM/DE/DM situation.</p></div>
@@ -814,14 +820,17 @@ Applications, depending on your WM/DE/DM situation.</p></div>
 <h3 id="_if_it_still_doesn_8217_t_work">If it still doesn&#8217;t work</h3>
 <div class="paragraph"><p>In Debian, Ubuntu, Fedora, and possibly other distros, bitmap fonts are
 disabled by default. This can be fixed by running the following command:
-In the folder /etc/fonts/conf.d/, there is usually a file responsible
+In the folder <tt>/etc/fonts/conf.d/</tt>, there is usually a file responsible
 for this.  In Debian and it&#8217;s derivatives, it&#8217;s something like
 <tt>70-no-bitmap-fonts</tt>.  In Fedora, I think it was in the 20&#8217;s, maybe
 <tt>25-no-bitmaps-fedora</tt>.  It&#8217;s something obvious.</p></div>
 <div class="paragraph"><p>Also -in DEBIAN ONLY-
 you can run:</p></div>
-<div class="paragraph"><p># dpkg reconfigure fontconfig-config
-# dpkg reconfigure fontcofig</p></div>
+<div class="literalblock">
+<div class="content">
+<pre><tt># dpkg reconfigure fontconfig-config
+# dpkg reconfigure fontcofig</tt></pre>
+</div></div>
 <div class="paragraph"><p>The first command will open a little ncurses thing where you can turn on
 the bitmap fonts.  After that, the above directions ought to work.</p></div>
 </div>
@@ -831,7 +840,7 @@ the bitmap fonts.  After that, the above directions ought to work.</p></div>
 <div id="footnotes"><hr /></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2011-11-23 12:04:16 CST
+Last updated 2011-11-23 12:14:38 CST
 </div>
 </div>
 </body>

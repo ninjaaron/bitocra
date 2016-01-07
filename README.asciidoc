@@ -20,8 +20,9 @@ this area is welcome.
 
 Others
 ------
-* 'bitocra13' is a much-requested larger version of bitocra.  It currently 
-supports ISO8859 encoding.
+* 'bitocra13' is a much-requested larger version of bitocra.  It
+currently supports ISO8859 encoding. bitocra13full is not quite as
+"full" as bitocrafull. It just adds Hebrew and certain other characters.
 
 * 'bitocra7' is a never-requested smaller version of bitocra.  It is
 currently only ascii, but will be expanded to ISO8895.
